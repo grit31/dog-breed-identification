@@ -1,0 +1,300 @@
+lr =0.01
+D:\ProgramData\anaconda3\envs\homework_2_1\python.exe D:/homework/Course_Design_of_artificial_intelligence/third/ResNet_Seblock/fangzhang_ResNet_kaggle_dalao/sam_dalao_before_seblock/newV1_data.py
+Using device: cuda
+数据增强：True | 训练：True | 测试：True
+数据增强
+------ 模型结构和参数量 ------
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv2d-1         [-1, 64, 112, 112]           9,408
+       BatchNorm2d-2         [-1, 64, 112, 112]             128
+              ReLU-3         [-1, 64, 112, 112]               0
+         MaxPool2d-4           [-1, 64, 56, 56]               0
+            Conv2d-5           [-1, 64, 56, 56]          36,864
+       BatchNorm2d-6           [-1, 64, 56, 56]             128
+              ReLU-7           [-1, 64, 56, 56]               0
+            Conv2d-8           [-1, 64, 56, 56]          36,864
+       BatchNorm2d-9           [-1, 64, 56, 56]             128
+AdaptiveAvgPool2d-10             [-1, 64, 1, 1]               0
+           Linear-11                    [-1, 4]             256
+             ReLU-12                    [-1, 4]               0
+           Linear-13                   [-1, 64]             256
+          Sigmoid-14                   [-1, 64]               0
+          SEBlock-15           [-1, 64, 56, 56]               0
+             ReLU-16           [-1, 64, 56, 56]               0
+     BasicBlockSE-17           [-1, 64, 56, 56]               0
+           Conv2d-18           [-1, 64, 56, 56]          36,864
+      BatchNorm2d-19           [-1, 64, 56, 56]             128
+             ReLU-20           [-1, 64, 56, 56]               0
+           Conv2d-21           [-1, 64, 56, 56]          36,864
+      BatchNorm2d-22           [-1, 64, 56, 56]             128
+AdaptiveAvgPool2d-23             [-1, 64, 1, 1]               0
+           Linear-24                    [-1, 4]             256
+             ReLU-25                    [-1, 4]               0
+           Linear-26                   [-1, 64]             256
+          Sigmoid-27                   [-1, 64]               0
+          SEBlock-28           [-1, 64, 56, 56]               0
+             ReLU-29           [-1, 64, 56, 56]               0
+     BasicBlockSE-30           [-1, 64, 56, 56]               0
+           Conv2d-31          [-1, 128, 28, 28]          73,728
+      BatchNorm2d-32          [-1, 128, 28, 28]             256
+             ReLU-33          [-1, 128, 28, 28]               0
+           Conv2d-34          [-1, 128, 28, 28]         147,456
+      BatchNorm2d-35          [-1, 128, 28, 28]             256
+AdaptiveAvgPool2d-36            [-1, 128, 1, 1]               0
+           Linear-37                    [-1, 8]           1,024
+             ReLU-38                    [-1, 8]               0
+           Linear-39                  [-1, 128]           1,024
+          Sigmoid-40                  [-1, 128]               0
+          SEBlock-41          [-1, 128, 28, 28]               0
+           Conv2d-42          [-1, 128, 28, 28]           8,192
+      BatchNorm2d-43          [-1, 128, 28, 28]             256
+             ReLU-44          [-1, 128, 28, 28]               0
+     BasicBlockSE-45          [-1, 128, 28, 28]               0
+           Conv2d-46          [-1, 128, 28, 28]         147,456
+      BatchNorm2d-47          [-1, 128, 28, 28]             256
+             ReLU-48          [-1, 128, 28, 28]               0
+           Conv2d-49          [-1, 128, 28, 28]         147,456
+      BatchNorm2d-50          [-1, 128, 28, 28]             256
+AdaptiveAvgPool2d-51            [-1, 128, 1, 1]               0
+           Linear-52                    [-1, 8]           1,024
+             ReLU-53                    [-1, 8]               0
+           Linear-54                  [-1, 128]           1,024
+          Sigmoid-55                  [-1, 128]               0
+          SEBlock-56          [-1, 128, 28, 28]               0
+             ReLU-57          [-1, 128, 28, 28]               0
+     BasicBlockSE-58          [-1, 128, 28, 28]               0
+           Conv2d-59          [-1, 256, 14, 14]         294,912
+      BatchNorm2d-60          [-1, 256, 14, 14]             512
+             ReLU-61          [-1, 256, 14, 14]               0
+           Conv2d-62          [-1, 256, 14, 14]         589,824
+      BatchNorm2d-63          [-1, 256, 14, 14]             512
+AdaptiveAvgPool2d-64            [-1, 256, 1, 1]               0
+           Linear-65                   [-1, 16]           4,096
+             ReLU-66                   [-1, 16]               0
+           Linear-67                  [-1, 256]           4,096
+          Sigmoid-68                  [-1, 256]               0
+          SEBlock-69          [-1, 256, 14, 14]               0
+           Conv2d-70          [-1, 256, 14, 14]          32,768
+      BatchNorm2d-71          [-1, 256, 14, 14]             512
+             ReLU-72          [-1, 256, 14, 14]               0
+     BasicBlockSE-73          [-1, 256, 14, 14]               0
+           Conv2d-74          [-1, 256, 14, 14]         589,824
+      BatchNorm2d-75          [-1, 256, 14, 14]             512
+             ReLU-76          [-1, 256, 14, 14]               0
+           Conv2d-77          [-1, 256, 14, 14]         589,824
+      BatchNorm2d-78          [-1, 256, 14, 14]             512
+AdaptiveAvgPool2d-79            [-1, 256, 1, 1]               0
+           Linear-80                   [-1, 16]           4,096
+             ReLU-81                   [-1, 16]               0
+           Linear-82                  [-1, 256]           4,096
+          Sigmoid-83                  [-1, 256]               0
+          SEBlock-84          [-1, 256, 14, 14]               0
+             ReLU-85          [-1, 256, 14, 14]               0
+     BasicBlockSE-86          [-1, 256, 14, 14]               0
+           Conv2d-87            [-1, 512, 7, 7]       1,179,648
+      BatchNorm2d-88            [-1, 512, 7, 7]           1,024
+             ReLU-89            [-1, 512, 7, 7]               0
+           Conv2d-90            [-1, 512, 7, 7]       2,359,296
+      BatchNorm2d-91            [-1, 512, 7, 7]           1,024
+AdaptiveAvgPool2d-92            [-1, 512, 1, 1]               0
+           Linear-93                   [-1, 32]          16,384
+             ReLU-94                   [-1, 32]               0
+           Linear-95                  [-1, 512]          16,384
+          Sigmoid-96                  [-1, 512]               0
+          SEBlock-97            [-1, 512, 7, 7]               0
+           Conv2d-98            [-1, 512, 7, 7]         131,072
+      BatchNorm2d-99            [-1, 512, 7, 7]           1,024
+            ReLU-100            [-1, 512, 7, 7]               0
+    BasicBlockSE-101            [-1, 512, 7, 7]               0
+          Conv2d-102            [-1, 512, 7, 7]       2,359,296
+     BatchNorm2d-103            [-1, 512, 7, 7]           1,024
+            ReLU-104            [-1, 512, 7, 7]               0
+          Conv2d-105            [-1, 512, 7, 7]       2,359,296
+     BatchNorm2d-106            [-1, 512, 7, 7]           1,024
+AdaptiveAvgPool2d-107            [-1, 512, 1, 1]               0
+          Linear-108                   [-1, 32]          16,384
+            ReLU-109                   [-1, 32]               0
+          Linear-110                  [-1, 512]          16,384
+         Sigmoid-111                  [-1, 512]               0
+         SEBlock-112            [-1, 512, 7, 7]               0
+            ReLU-113            [-1, 512, 7, 7]               0
+    BasicBlockSE-114            [-1, 512, 7, 7]               0
+AdaptiveAvgPool2d-115            [-1, 512, 1, 1]               0
+          Linear-116                  [-1, 120]          61,560
+================================================================
+Total params: 11,325,112
+Trainable params: 11,325,112
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.57
+Forward/backward pass size (MB): 68.57
+Params size (MB): 43.20
+Estimated Total Size (MB): 112.35
+----------------------------------------------------------------
+参数量: 11.33M
+模型大小: 43.24 MB
+FLOPs: 3.65 GFLOPs/图像
+
+==== Epoch 1/30 ====
+Train: 100%|██████████| 256/256 [02:07<00:00,  2.01it/s]
+Val: 100%|██████████| 64/64 [00:13<00:00,  4.60it/s]
+Train Loss: 4.8293 | Val Loss: 4.7404 | Val Acc: 0.0298 | Top-5: 0.0856 | F1: 0.0075
+
+==== Epoch 2/30 ====
+Train: 100%|██████████| 256/256 [01:59<00:00,  2.15it/s]
+Val: 100%|██████████| 64/64 [00:13<00:00,  4.75it/s]
+Train Loss: 4.6735 | Val Loss: 4.5985 | Val Acc: 0.0323 | Top-5: 0.1134 | F1: 0.0102
+Train:   0%|          | 0/256 [00:00<?, ?it/s]
+==== Epoch 3/30 ====
+Train: 100%|██████████| 256/256 [01:58<00:00,  2.15it/s]
+Val: 100%|██████████| 64/64 [00:13<00:00,  4.61it/s]
+Train Loss: 4.5412 | Val Loss: 4.4683 | Val Acc: 0.0362 | Top-5: 0.1555 | F1: 0.0129
+Train:   0%|          | 0/256 [00:00<?, ?it/s]
+==== Epoch 4/30 ====
+Train: 100%|██████████| 256/256 [02:00<00:00,  2.13it/s]
+Val: 100%|██████████| 64/64 [00:13<00:00,  4.90it/s]
+Train:   0%|          | 0/256 [00:00<?, ?it/s]Train Loss: 4.4176 | Val Loss: 4.4991 | Val Acc: 0.0411 | Top-5: 0.1599 | F1: 0.0150
+
+==== Epoch 5/30 ====
+Train: 100%|██████████| 256/256 [01:56<00:00,  2.20it/s]
+Val: 100%|██████████| 64/64 [00:13<00:00,  4.76it/s]
+Train Loss: 4.3253 | Val Loss: 4.3981 | Val Acc: 0.0445 | Top-5: 0.1736 | F1: 0.0190
+Train:   0%|          | 0/256 [00:00<?, ?it/s]
+==== Epoch 6/30 ====
+Train: 100%|██████████| 256/256 [01:56<00:00,  2.19it/s]
+Val: 100%|██████████| 64/64 [00:13<00:00,  4.84it/s]
+Train:   0%|          | 0/256 [00:00<?, ?it/s]Train Loss: 4.2494 | Val Loss: 4.7462 | Val Acc: 0.0494 | Top-5: 0.1775 | F1: 0.0236
+
+==== Epoch 7/30 ====
+Train: 100%|██████████| 256/256 [01:56<00:00,  2.19it/s]
+Val: 100%|██████████| 64/64 [00:13<00:00,  4.87it/s]
+Train Loss: 4.1671 | Val Loss: 4.3922 | Val Acc: 0.0587 | Top-5: 0.2039 | F1: 0.0330
+Train:   0%|          | 0/256 [00:00<?, ?it/s]
+==== Epoch 8/30 ====
+Train: 100%|██████████| 256/256 [01:56<00:00,  2.20it/s]
+Val: 100%|██████████| 64/64 [00:13<00:00,  4.82it/s]
+Train Loss: 3.9676 | Val Loss: 3.9773 | Val Acc: 0.0944 | Top-5: 0.2846 | F1: 0.0612
+
+==== Epoch 9/30 ====
+Train: 100%|██████████| 256/256 [01:56<00:00,  2.19it/s]
+Val: 100%|██████████| 64/64 [00:12<00:00,  4.94it/s]
+Train Loss: 3.9109 | Val Loss: 3.9134 | Val Acc: 0.0954 | Top-5: 0.2905 | F1: 0.0641
+Train:   0%|          | 0/256 [00:00<?, ?it/s]
+==== Epoch 10/30 ====
+Train: 100%|██████████| 256/256 [01:56<00:00,  2.19it/s]
+Val: 100%|██████████| 64/64 [00:13<00:00,  4.85it/s]
+Train Loss: 3.8783 | Val Loss: 3.9034 | Val Acc: 0.1066 | Top-5: 0.2919 | F1: 0.0739
+Train:   0%|          | 0/256 [00:00<?, ?it/s]
+==== Epoch 11/30 ====
+Train: 100%|██████████| 256/256 [01:57<00:00,  2.18it/s]
+Val: 100%|██████████| 64/64 [00:13<00:00,  4.85it/s]
+Train Loss: 3.8404 | Val Loss: 3.8732 | Val Acc: 0.0973 | Top-5: 0.3090 | F1: 0.0674
+
+==== Epoch 12/30 ====
+Train: 100%|██████████| 256/256 [01:56<00:00,  2.19it/s]
+Val: 100%|██████████| 64/64 [00:13<00:00,  4.91it/s]
+Train:   0%|          | 0/256 [00:00<?, ?it/s]Train Loss: 3.8285 | Val Loss: 3.9085 | Val Acc: 0.1022 | Top-5: 0.2998 | F1: 0.0683
+
+==== Epoch 13/30 ====
+Train: 100%|██████████| 256/256 [01:56<00:00,  2.19it/s]
+Val: 100%|██████████| 64/64 [00:13<00:00,  4.92it/s]
+Train:   0%|          | 0/256 [00:00<?, ?it/s]Train Loss: 3.8078 | Val Loss: 3.8952 | Val Acc: 0.0998 | Top-5: 0.3061 | F1: 0.0694
+
+==== Epoch 14/30 ====
+Train: 100%|██████████| 256/256 [01:56<00:00,  2.20it/s]
+Val: 100%|██████████| 64/64 [00:12<00:00,  4.95it/s]
+Train Loss: 3.7811 | Val Loss: 3.8279 | Val Acc: 0.1095 | Top-5: 0.3203 | F1: 0.0766
+
+==== Epoch 15/30 ====
+Train: 100%|██████████| 256/256 [01:56<00:00,  2.19it/s]
+Val: 100%|██████████| 64/64 [00:12<00:00,  4.94it/s]
+Train Loss: 3.7345 | Val Loss: 3.7820 | Val Acc: 0.1149 | Top-5: 0.3355 | F1: 0.0820
+Train:   0%|          | 0/256 [00:00<?, ?it/s]
+==== Epoch 16/30 ====
+Train: 100%|██████████| 256/256 [01:56<00:00,  2.19it/s]
+Val: 100%|██████████| 64/64 [00:13<00:00,  4.88it/s]
+Train:   0%|          | 0/256 [00:00<?, ?it/s]Train Loss: 3.7195 | Val Loss: 3.7858 | Val Acc: 0.1110 | Top-5: 0.3350 | F1: 0.0779
+
+==== Epoch 17/30 ====
+Train: 100%|██████████| 256/256 [01:57<00:00,  2.18it/s]
+Val: 100%|██████████| 64/64 [00:12<00:00,  5.05it/s]
+Train Loss: 3.7241 | Val Loss: 3.7808 | Val Acc: 0.1120 | Top-5: 0.3350 | F1: 0.0797
+Train:   0%|          | 0/256 [00:00<?, ?it/s]
+==== Epoch 18/30 ====
+Train: 100%|██████████| 256/256 [01:56<00:00,  2.19it/s]
+Val: 100%|██████████| 64/64 [00:12<00:00,  4.98it/s]
+Train:   0%|          | 0/256 [00:00<?, ?it/s]Train Loss: 3.7278 | Val Loss: 3.7842 | Val Acc: 0.1125 | Top-5: 0.3325 | F1: 0.0803
+
+==== Epoch 19/30 ====
+Train: 100%|██████████| 256/256 [01:57<00:00,  2.19it/s]
+Val: 100%|██████████| 64/64 [00:13<00:00,  4.91it/s]
+Train Loss: 3.7073 | Val Loss: 3.7737 | Val Acc: 0.1134 | Top-5: 0.3359 | F1: 0.0817
+Train:   0%|          | 0/256 [00:00<?, ?it/s]
+==== Epoch 20/30 ====
+Train: 100%|██████████| 256/256 [01:57<00:00,  2.19it/s]
+Val: 100%|██████████| 64/64 [00:12<00:00,  4.93it/s]
+Train Loss: 3.7026 | Val Loss: 3.7715 | Val Acc: 0.1174 | Top-5: 0.3384 | F1: 0.0841
+Train:   0%|          | 0/256 [00:00<?, ?it/s]
+==== Epoch 21/30 ====
+Train: 100%|██████████| 256/256 [01:56<00:00,  2.19it/s]
+Val: 100%|██████████| 64/64 [00:13<00:00,  4.75it/s]
+Train:   0%|          | 0/256 [00:00<?, ?it/s]Train Loss: 3.7123 | Val Loss: 3.7737 | Val Acc: 0.1154 | Top-5: 0.3438 | F1: 0.0831
+
+==== Epoch 22/30 ====
+Train: 100%|██████████| 256/256 [01:56<00:00,  2.19it/s]
+Val: 100%|██████████| 64/64 [00:13<00:00,  4.89it/s]
+Train Loss: 3.6900 | Val Loss: 3.7707 | Val Acc: 0.1120 | Top-5: 0.3359 | F1: 0.0799
+Train:   0%|          | 0/256 [00:00<?, ?it/s]
+==== Epoch 23/30 ====
+Train: 100%|██████████| 256/256 [01:57<00:00,  2.19it/s]
+Val: 100%|██████████| 64/64 [00:13<00:00,  4.92it/s]
+Train Loss: 3.6935 | Val Loss: 3.7711 | Val Acc: 0.1115 | Top-5: 0.3369 | F1: 0.0783
+
+==== Epoch 24/30 ====
+Train: 100%|██████████| 256/256 [01:57<00:00,  2.18it/s]
+Val: 100%|██████████| 64/64 [00:13<00:00,  4.84it/s]
+Train:   0%|          | 0/256 [00:00<?, ?it/s]Train Loss: 3.6964 | Val Loss: 3.7723 | Val Acc: 0.1139 | Top-5: 0.3355 | F1: 0.0822
+
+==== Epoch 25/30 ====
+Train: 100%|██████████| 256/256 [01:57<00:00,  2.18it/s]
+Val: 100%|██████████| 64/64 [00:13<00:00,  4.86it/s]
+Train:   0%|          | 0/256 [00:00<?, ?it/s]Train Loss: 3.6890 | Val Loss: 3.7750 | Val Acc: 0.1134 | Top-5: 0.3355 | F1: 0.0815
+
+==== Epoch 26/30 ====
+Train: 100%|██████████| 256/256 [01:57<00:00,  2.18it/s]
+Val: 100%|██████████| 64/64 [00:13<00:00,  4.88it/s]
+Train Loss: 3.6879 | Val Loss: 3.7667 | Val Acc: 0.1178 | Top-5: 0.3369 | F1: 0.0865
+Train:   0%|          | 0/256 [00:00<?, ?it/s]
+==== Epoch 27/30 ====
+Train: 100%|██████████| 256/256 [01:56<00:00,  2.19it/s]
+Val: 100%|██████████| 64/64 [00:12<00:00,  4.95it/s]
+Train:   0%|          | 0/256 [00:00<?, ?it/s]Train Loss: 3.7069 | Val Loss: 3.7770 | Val Acc: 0.1139 | Top-5: 0.3291 | F1: 0.0813
+
+==== Epoch 28/30 ====
+Train: 100%|██████████| 256/256 [01:56<00:00,  2.19it/s]
+Val: 100%|██████████| 64/64 [00:12<00:00,  4.96it/s]
+Train:   0%|          | 0/256 [00:00<?, ?it/s]Train Loss: 3.6941 | Val Loss: 3.7741 | Val Acc: 0.1120 | Top-5: 0.3355 | F1: 0.0798
+
+==== Epoch 29/30 ====
+Train: 100%|██████████| 256/256 [01:56<00:00,  2.20it/s]
+Val: 100%|██████████| 64/64 [00:12<00:00,  5.00it/s]
+Train:   0%|          | 0/256 [00:00<?, ?it/s]Train Loss: 3.6884 | Val Loss: 3.7723 | Val Acc: 0.1134 | Top-5: 0.3340 | F1: 0.0814
+
+==== Epoch 30/30 ====
+Train: 100%|██████████| 256/256 [01:56<00:00,  2.19it/s]
+Val: 100%|██████████| 64/64 [00:12<00:00,  4.94it/s]
+Train Loss: 3.6920 | Val Loss: 3.7755 | Val Acc: 0.1134 | Top-5: 0.3384 | F1: 0.0815
+收敛到最优Val Loss Epoch: 26，总训练用时: 65.35 分钟
+D:/homework/Course_Design_of_artificial_intelligence/third/ResNet_Seblock/fangzhang_ResNet_kaggle_dalao/sam_dalao_before_seblock/newV1_data.py:243: MatplotlibDeprecationWarning: Support for FigureCanvases without a required_interactive_framework attribute was deprecated in Matplotlib 3.6 and will be removed two minor releases later.
+  plt.figure()
+D:/homework/Course_Design_of_artificial_intelligence/third/ResNet_Seblock/fangzhang_ResNet_kaggle_dalao/sam_dalao_before_seblock/newV1_data.py:253: MatplotlibDeprecationWarning: Support for FigureCanvases without a required_interactive_framework attribute was deprecated in Matplotlib 3.6 and will be removed two minor releases later.
+  plt.figure()
+SpeedTest: 100%|██████████| 64/64 [00:13<00:00,  4.65it/s]
+推理平均测试速度: 2.415 ms/图像
+推理最大显存占用: 375.04 MB
+Kaggle Test: 100%|██████████| 324/324 [01:08<00:00,  4.71it/s]
+Kaggle提交文件保存至: D:\homework\Course_Design_of_artificial_intelligence\third\ResNet_Seblock\fangzhang_ResNet_kaggle_dalao\sam_dalao_before_seblock\newV1_sgd_data\submission_se.csv
+
+进程已结束,退出代码0

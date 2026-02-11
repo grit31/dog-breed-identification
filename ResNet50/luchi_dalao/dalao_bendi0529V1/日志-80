@@ -1,0 +1,416 @@
+D:\ProgramData\anaconda3\envs\homework_2_1\python.exe D:/homework/Course_Design_of_artificial_intelligence/third/ResNet50/luchi_dalao/dalao_bendi.py
+Finished reading the train set of Dog Dataset (8177 samples found)
+Finished reading the valid set of Dog Dataset (2045 samples found)
+Finished reading the test set of Dog Dataset (10357 samples found)
+Using device: cuda
+
+=== Model Info ===
+参数量: 0.25 M
+模型大小: 90.82 MB
+FLOPs: 8.26 GFLOPs/图像
+
+Epoch 1/80 [Train]: 100%|██████████| 64/64 [02:24<00:00,  2.26s/it]
+Epoch 1/80 [Valid]:   0%|          | 0/16 [00:00<?, ?it/s][Train | 001/080] loss = 4.68284, acc = 0.05825, top5 = 0.17855
+Epoch 1/80 [Valid]: 100%|██████████| 16/16 [00:30<00:00,  1.91s/it]
+[ Valid | 001/080 ] loss = 4.54594, acc = 0.17417, top5 = 0.39609
+>>> Model saved at epoch 1, val_loss = 4.54594
+Epoch 2/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+[Train | 002/080] loss = 4.44680, acc = 0.20462, top5 = 0.46508
+Epoch 2/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.16s/it]
+[ Valid | 002/080 ] loss = 4.32336, acc = 0.35263, top5 = 0.67922
+>>> Model saved at epoch 2, val_loss = 4.32336
+Epoch 3/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+Epoch 3/80 [Valid]:   0%|          | 0/16 [00:00<?, ?it/s][Train | 003/080] loss = 4.23992, acc = 0.33244, top5 = 0.64351
+Epoch 3/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.16s/it]
+[ Valid | 003/080 ] loss = 4.11531, acc = 0.48173, top5 = 0.80587
+>>> Model saved at epoch 3, val_loss = 4.11531
+Epoch 4/80 [Train]: 100%|██████████| 64/64 [01:23<00:00,  1.30s/it]
+[Train | 004/080] loss = 4.04399, acc = 0.42162, top5 = 0.73633
+Epoch 4/80 [Valid]: 100%|██████████| 16/16 [00:19<00:00,  1.21s/it]
+[ Valid | 004/080 ] loss = 3.91424, acc = 0.56288, top5 = 0.86259
+>>> Model saved at epoch 4, val_loss = 3.91424
+Epoch 5/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+Epoch 5/80 [Valid]:   0%|          | 0/16 [00:00<?, ?it/s][Train | 005/080] loss = 3.85993, acc = 0.48322, top5 = 0.78097
+Epoch 5/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.15s/it]
+[ Valid | 005/080 ] loss = 3.72802, acc = 0.60639, top5 = 0.90073
+>>> Model saved at epoch 5, val_loss = 3.72802
+Epoch 6/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+[Train | 006/080] loss = 3.68166, acc = 0.52618, top5 = 0.82011
+Epoch 6/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.16s/it]
+[ Valid | 006/080 ] loss = 3.54521, acc = 0.65089, top5 = 0.92714
+Epoch 7/80 [Train]:   0%|          | 0/64 [00:00<?, ?it/s]>>> Model saved at epoch 6, val_loss = 3.54521
+Epoch 7/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+Epoch 7/80 [Valid]:   0%|          | 0/16 [00:00<?, ?it/s][Train | 007/080] loss = 3.53028, acc = 0.56014, top5 = 0.83820
+Epoch 7/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.15s/it]
+[ Valid | 007/080 ] loss = 3.37646, acc = 0.67981, top5 = 0.94230
+>>> Model saved at epoch 7, val_loss = 3.37646
+Epoch 8/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.30s/it]
+[Train | 008/080] loss = 3.38246, acc = 0.59072, top5 = 0.84505
+Epoch 8/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.16s/it]
+[ Valid | 008/080 ] loss = 3.21509, acc = 0.70521, top5 = 0.94719
+Epoch 9/80 [Train]:   0%|          | 0/64 [00:00<?, ?it/s]>>> Model saved at epoch 8, val_loss = 3.21509
+Epoch 9/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+[Train | 009/080] loss = 3.23555, acc = 0.61168, top5 = 0.86242
+Epoch 9/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.15s/it]
+[ Valid | 009/080 ] loss = 3.06733, acc = 0.72771, top5 = 0.95599
+>>> Model saved at epoch 9, val_loss = 3.06733
+Epoch 10/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+[Train | 010/080] loss = 3.09917, acc = 0.62972, top5 = 0.86633
+Epoch 10/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.15s/it]
+[ Valid | 010/080 ] loss = 2.93053, acc = 0.74381, top5 = 0.95795
+>>> Model saved at epoch 10, val_loss = 2.93053
+Epoch 11/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+Epoch 11/80 [Valid]:   0%|          | 0/16 [00:00<?, ?it/s][Train | 011/080] loss = 2.98451, acc = 0.63636, top5 = 0.86780
+Epoch 11/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.15s/it]
+[ Valid | 011/080 ] loss = 2.80164, acc = 0.75557, top5 = 0.96528
+Epoch 12/80 [Train]:   0%|          | 0/64 [00:00<?, ?it/s]>>> Model saved at epoch 11, val_loss = 2.80164
+Epoch 12/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+Epoch 12/80 [Valid]:   0%|          | 0/16 [00:00<?, ?it/s][Train | 012/080] loss = 2.86706, acc = 0.64706, top5 = 0.87954
+Epoch 12/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.15s/it]
+[ Valid | 012/080 ] loss = 2.65998, acc = 0.76827, top5 = 0.96381
+>>> Model saved at epoch 12, val_loss = 2.65998
+Epoch 13/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+Epoch 13/80 [Valid]:   0%|          | 0/16 [00:00<?, ?it/s][Train | 013/080] loss = 2.75767, acc = 0.65716, top5 = 0.87624
+Epoch 13/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.14s/it]
+[ Valid | 013/080 ] loss = 2.55909, acc = 0.77854, top5 = 0.96675
+Epoch 14/80 [Train]:   0%|          | 0/64 [00:00<?, ?it/s]>>> Model saved at epoch 13, val_loss = 2.55909
+Epoch 14/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+Epoch 14/80 [Valid]:   0%|          | 0/16 [00:00<?, ?it/s][Train | 014/080] loss = 2.65203, acc = 0.66446, top5 = 0.88627
+Epoch 14/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.14s/it]
+[ Valid | 014/080 ] loss = 2.43601, acc = 0.78585, top5 = 0.96968
+Epoch 15/80 [Train]:   0%|          | 0/64 [00:00<?, ?it/s]>>> Model saved at epoch 14, val_loss = 2.43601
+Epoch 15/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+Epoch 15/80 [Valid]:   0%|          | 0/16 [00:00<?, ?it/s][Train | 015/080] loss = 2.55643, acc = 0.67782, top5 = 0.88382
+Epoch 15/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.14s/it]
+[ Valid | 015/080 ] loss = 2.34725, acc = 0.78927, top5 = 0.96919
+Epoch 16/80 [Train]:   0%|          | 0/64 [00:00<?, ?it/s]>>> Model saved at epoch 15, val_loss = 2.34725
+Epoch 16/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+Epoch 16/80 [Valid]:   0%|          | 0/16 [00:00<?, ?it/s][Train | 016/080] loss = 2.46960, acc = 0.68147, top5 = 0.88578
+Epoch 16/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.14s/it]
+[ Valid | 016/080 ] loss = 2.23837, acc = 0.80006, top5 = 0.97115
+Epoch 17/80 [Train]:   0%|          | 0/64 [00:00<?, ?it/s]>>> Model saved at epoch 16, val_loss = 2.23837
+Epoch 17/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.28s/it]
+Epoch 17/80 [Valid]:   0%|          | 0/16 [00:00<?, ?it/s][Train | 017/080] loss = 2.38150, acc = 0.69069, top5 = 0.89250
+Epoch 17/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.14s/it]
+[ Valid | 017/080 ] loss = 2.14473, acc = 0.80395, top5 = 0.97311
+>>> Model saved at epoch 17, val_loss = 2.14473
+Epoch 18/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+Epoch 18/80 [Valid]:   0%|          | 0/16 [00:00<?, ?it/s][Train | 018/080] loss = 2.30711, acc = 0.68933, top5 = 0.89006
+Epoch 18/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.14s/it]
+[ Valid | 018/080 ] loss = 2.05173, acc = 0.80835, top5 = 0.97457
+>>> Model saved at epoch 18, val_loss = 2.05173
+Epoch 19/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+Epoch 19/80 [Valid]:   0%|          | 0/16 [00:00<?, ?it/s][Train | 019/080] loss = 2.22485, acc = 0.70069, top5 = 0.89128
+Epoch 19/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.14s/it]
+[ Valid | 019/080 ] loss = 1.95442, acc = 0.81570, top5 = 0.97457
+>>> Model saved at epoch 19, val_loss = 1.95442
+Epoch 20/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+[Train | 020/080] loss = 2.15482, acc = 0.70968, top5 = 0.89752
+Epoch 20/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.14s/it]
+[ Valid | 020/080 ] loss = 1.91581, acc = 0.81421, top5 = 0.97457
+Epoch 21/80 [Train]:   0%|          | 0/64 [00:00<?, ?it/s]>>> Model saved at epoch 20, val_loss = 1.91581
+Epoch 21/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+[Train | 021/080] loss = 2.11175, acc = 0.70238, top5 = 0.89348
+Epoch 21/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.15s/it]
+[ Valid | 021/080 ] loss = 1.81847, acc = 0.82058, top5 = 0.97506
+Epoch 22/80 [Train]:   0%|          | 0/64 [00:00<?, ?it/s]>>> Model saved at epoch 21, val_loss = 1.81847
+Epoch 22/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+[Train | 022/080] loss = 2.06666, acc = 0.69810, top5 = 0.89275
+Epoch 22/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.14s/it]
+[ Valid | 022/080 ] loss = 1.77141, acc = 0.81963, top5 = 0.97555
+>>> Model saved at epoch 22, val_loss = 1.77141
+Epoch 23/80 [Train]: 100%|██████████| 64/64 [01:24<00:00,  1.31s/it]
+[Train | 023/080] loss = 1.99159, acc = 0.71166, top5 = 0.90119
+Epoch 23/80 [Valid]: 100%|██████████| 16/16 [00:19<00:00,  1.21s/it]
+[ Valid | 023/080 ] loss = 1.70461, acc = 0.82351, top5 = 0.97457
+Epoch 24/80 [Train]:   0%|          | 0/64 [00:00<?, ?it/s]>>> Model saved at epoch 23, val_loss = 1.70461
+Epoch 24/80 [Train]: 100%|██████████| 64/64 [01:24<00:00,  1.32s/it]
+[Train | 024/080] loss = 1.93057, acc = 0.71734, top5 = 0.90192
+Epoch 24/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.14s/it]
+[ Valid | 024/080 ] loss = 1.62652, acc = 0.83086, top5 = 0.97604
+Epoch 25/80 [Train]:   0%|          | 0/64 [00:00<?, ?it/s]>>> Model saved at epoch 24, val_loss = 1.62652
+Epoch 25/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+[Train | 025/080] loss = 1.88956, acc = 0.71649, top5 = 0.90314
+Epoch 25/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.15s/it]
+[ Valid | 025/080 ] loss = 1.58794, acc = 0.82939, top5 = 0.97848
+>>> Model saved at epoch 25, val_loss = 1.58794
+Epoch 26/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+[Train | 026/080] loss = 1.83245, acc = 0.71518, top5 = 0.90290
+Epoch 26/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.14s/it]
+[ Valid | 026/080 ] loss = 1.52986, acc = 0.83477, top5 = 0.97848
+>>> Model saved at epoch 26, val_loss = 1.52986
+Epoch 27/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+[Train | 027/080] loss = 1.77982, acc = 0.72979, top5 = 0.90767
+Epoch 27/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.15s/it]
+[ Valid | 027/080 ] loss = 1.47981, acc = 0.83819, top5 = 0.97848
+Epoch 28/80 [Train]:   0%|          | 0/64 [00:00<?, ?it/s]>>> Model saved at epoch 27, val_loss = 1.47981
+Epoch 28/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+Epoch 28/80 [Valid]:   0%|          | 0/16 [00:00<?, ?it/s][Train | 028/080] loss = 1.73479, acc = 0.72951, top5 = 0.91097
+Epoch 28/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.14s/it]
+[ Valid | 028/080 ] loss = 1.43260, acc = 0.83771, top5 = 0.97702
+Epoch 29/80 [Train]:   0%|          | 0/64 [00:00<?, ?it/s]>>> Model saved at epoch 28, val_loss = 1.43260
+Epoch 29/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+[Train | 029/080] loss = 1.71119, acc = 0.73413, top5 = 0.90706
+Epoch 29/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.14s/it]
+[ Valid | 029/080 ] loss = 1.38570, acc = 0.84504, top5 = 0.97946
+>>> Model saved at epoch 29, val_loss = 1.38570
+Epoch 30/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+[Train | 030/080] loss = 1.66856, acc = 0.73452, top5 = 0.90816
+Epoch 30/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.14s/it]
+[ Valid | 030/080 ] loss = 1.35080, acc = 0.84455, top5 = 0.97946
+Epoch 31/80 [Train]:   0%|          | 0/64 [00:00<?, ?it/s]>>> Model saved at epoch 30, val_loss = 1.35080
+Epoch 31/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+[Train | 031/080] loss = 1.64504, acc = 0.73389, top5 = 0.91280
+Epoch 31/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.14s/it]
+[ Valid | 031/080 ] loss = 1.31294, acc = 0.84653, top5 = 0.97897
+Epoch 32/80 [Train]:   0%|          | 0/64 [00:00<?, ?it/s]>>> Model saved at epoch 31, val_loss = 1.31294
+Epoch 32/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+[Train | 032/080] loss = 1.59326, acc = 0.74490, top5 = 0.91195
+Epoch 32/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.14s/it]
+[ Valid | 032/080 ] loss = 1.26423, acc = 0.84502, top5 = 0.98093
+Epoch 33/80 [Train]:   0%|          | 0/64 [00:00<?, ?it/s]>>> Model saved at epoch 32, val_loss = 1.26423
+Epoch 33/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+Epoch 33/80 [Valid]:   0%|          | 0/16 [00:00<?, ?it/s][Train | 033/080] loss = 1.58142, acc = 0.73801, top5 = 0.91073
+Epoch 33/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.14s/it]
+[ Valid | 033/080 ] loss = 1.23093, acc = 0.84847, top5 = 0.98142
+>>> Model saved at epoch 33, val_loss = 1.23093
+Epoch 34/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+[Train | 034/080] loss = 1.54535, acc = 0.74391, top5 = 0.90889
+Epoch 34/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.14s/it]
+[ Valid | 034/080 ] loss = 1.20662, acc = 0.84702, top5 = 0.97995
+>>> Model saved at epoch 34, val_loss = 1.20662
+Epoch 35/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+Epoch 35/80 [Valid]:   0%|          | 0/16 [00:00<?, ?it/s][Train | 035/080] loss = 1.52040, acc = 0.74391, top5 = 0.91660
+Epoch 35/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.15s/it]
+[ Valid | 035/080 ] loss = 1.18410, acc = 0.84752, top5 = 0.98093
+Epoch 36/80 [Train]:   0%|          | 0/64 [00:00<?, ?it/s]>>> Model saved at epoch 35, val_loss = 1.18410
+Epoch 36/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+Epoch 36/80 [Valid]:   0%|          | 0/16 [00:00<?, ?it/s][Train | 036/080] loss = 1.49852, acc = 0.74812, top5 = 0.91134
+Epoch 36/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.14s/it]
+[ Valid | 036/080 ] loss = 1.15375, acc = 0.84847, top5 = 0.98093
+>>> Model saved at epoch 36, val_loss = 1.15375
+Epoch 37/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+[Train | 037/080] loss = 1.48331, acc = 0.74000, top5 = 0.91121
+Epoch 37/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.15s/it]
+[ Valid | 037/080 ] loss = 1.12635, acc = 0.85043, top5 = 0.98093
+Epoch 38/80 [Train]:   0%|          | 0/64 [00:00<?, ?it/s]>>> Model saved at epoch 37, val_loss = 1.12635
+Epoch 38/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+Epoch 38/80 [Valid]:   0%|          | 0/16 [00:00<?, ?it/s][Train | 038/080] loss = 1.44778, acc = 0.75211, top5 = 0.91819
+Epoch 38/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.15s/it]
+[ Valid | 038/080 ] loss = 1.09483, acc = 0.85338, top5 = 0.98044
+Epoch 39/80 [Train]:   0%|          | 0/64 [00:00<?, ?it/s]>>> Model saved at epoch 38, val_loss = 1.09483
+Epoch 39/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.28s/it]
+[Train | 039/080] loss = 1.43391, acc = 0.74592, top5 = 0.91684
+Epoch 39/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.14s/it]
+[ Valid | 039/080 ] loss = 1.06842, acc = 0.85533, top5 = 0.98044
+Epoch 40/80 [Train]:   0%|          | 0/64 [00:00<?, ?it/s]>>> Model saved at epoch 39, val_loss = 1.06842
+Epoch 40/80 [Train]: 100%|██████████| 64/64 [01:23<00:00,  1.30s/it]
+[Train | 040/080] loss = 1.40897, acc = 0.75265, top5 = 0.91219
+Epoch 40/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.15s/it]
+[ Valid | 040/080 ] loss = 1.05399, acc = 0.85630, top5 = 0.97995
+>>> Model saved at epoch 40, val_loss = 1.05399
+Epoch 41/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.28s/it]
+[Train | 041/080] loss = 1.37736, acc = 0.75466, top5 = 0.92063
+Epoch 41/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.15s/it]
+[ Valid | 041/080 ] loss = 1.02619, acc = 0.85533, top5 = 0.98142
+Epoch 42/80 [Train]:   0%|          | 0/64 [00:00<?, ?it/s]>>> Model saved at epoch 41, val_loss = 1.02619
+Epoch 42/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+[Train | 042/080] loss = 1.37151, acc = 0.75274, top5 = 0.91525
+Epoch 42/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.15s/it]
+[ Valid | 042/080 ] loss = 1.01133, acc = 0.85876, top5 = 0.98191
+>>> Model saved at epoch 42, val_loss = 1.01133
+Epoch 43/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+[Train | 043/080] loss = 1.36014, acc = 0.75584, top5 = 0.91623
+Epoch 43/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.14s/it]
+[ Valid | 043/080 ] loss = 0.99817, acc = 0.86022, top5 = 0.98142
+Epoch 44/80 [Train]:   0%|          | 0/64 [00:00<?, ?it/s]>>> Model saved at epoch 43, val_loss = 0.99817
+Epoch 44/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+Epoch 44/80 [Valid]:   0%|          | 0/16 [00:00<?, ?it/s][Train | 044/080] loss = 1.32759, acc = 0.76362, top5 = 0.92100
+Epoch 44/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.15s/it]
+[ Valid | 044/080 ] loss = 0.95891, acc = 0.86071, top5 = 0.98240
+>>> Model saved at epoch 44, val_loss = 0.95891
+Epoch 45/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+Epoch 45/80 [Valid]:   0%|          | 0/16 [00:00<?, ?it/s][Train | 045/080] loss = 1.30969, acc = 0.76124, top5 = 0.91806
+Epoch 45/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.14s/it]
+[ Valid | 045/080 ] loss = 0.95112, acc = 0.85778, top5 = 0.98533
+>>> Model saved at epoch 45, val_loss = 0.95112
+Epoch 46/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+[Train | 046/080] loss = 1.30925, acc = 0.76133, top5 = 0.91867
+Epoch 46/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.15s/it]
+[ Valid | 046/080 ] loss = 0.92912, acc = 0.85923, top5 = 0.98289
+Epoch 47/80 [Train]:   0%|          | 0/64 [00:00<?, ?it/s]>>> Model saved at epoch 46, val_loss = 0.92912
+Epoch 47/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+Epoch 47/80 [Valid]:   0%|          | 0/16 [00:00<?, ?it/s][Train | 047/080] loss = 1.28807, acc = 0.76484, top5 = 0.91757
+Epoch 47/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.14s/it]
+[ Valid | 047/080 ] loss = 0.91279, acc = 0.86170, top5 = 0.98240
+Epoch 48/80 [Train]:   0%|          | 0/64 [00:00<?, ?it/s]>>> Model saved at epoch 47, val_loss = 0.91279
+Epoch 48/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+[Train | 048/080] loss = 1.28854, acc = 0.76271, top5 = 0.92210
+Epoch 48/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.14s/it]
+[ Valid | 048/080 ] loss = 0.89959, acc = 0.86219, top5 = 0.98484
+>>> Model saved at epoch 48, val_loss = 0.89959
+Epoch 49/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+Epoch 49/80 [Valid]:   0%|          | 0/16 [00:00<?, ?it/s][Train | 049/080] loss = 1.26926, acc = 0.76153, top5 = 0.91929
+Epoch 49/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.14s/it]
+[ Valid | 049/080 ] loss = 0.88825, acc = 0.86268, top5 = 0.98240
+Epoch 50/80 [Train]:   0%|          | 0/64 [00:00<?, ?it/s]>>> Model saved at epoch 49, val_loss = 0.88825
+Epoch 50/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+Epoch 50/80 [Valid]:   0%|          | 0/16 [00:00<?, ?it/s][Train | 050/080] loss = 1.24769, acc = 0.75835, top5 = 0.92222
+Epoch 50/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.14s/it]
+[ Valid | 050/080 ] loss = 0.86797, acc = 0.86364, top5 = 0.98289
+Epoch 51/80 [Train]:   0%|          | 0/64 [00:00<?, ?it/s]>>> Model saved at epoch 50, val_loss = 0.86797
+Epoch 51/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+Epoch 51/80 [Valid]:   0%|          | 0/16 [00:00<?, ?it/s][Train | 051/080] loss = 1.23961, acc = 0.76487, top5 = 0.91892
+Epoch 51/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.14s/it]
+[ Valid | 051/080 ] loss = 0.84705, acc = 0.86611, top5 = 0.98435
+>>> Model saved at epoch 51, val_loss = 0.84705
+Epoch 52/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+[Train | 052/080] loss = 1.22402, acc = 0.76999, top5 = 0.92100
+Epoch 52/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.14s/it]
+[ Valid | 052/080 ] loss = 0.84238, acc = 0.86216, top5 = 0.98533
+Epoch 53/80 [Train]:   0%|          | 0/64 [00:00<?, ?it/s]>>> Model saved at epoch 52, val_loss = 0.84238
+Epoch 53/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+Epoch 53/80 [Valid]:   0%|          | 0/16 [00:00<?, ?it/s][Train | 053/080] loss = 1.22306, acc = 0.76672, top5 = 0.92002
+Epoch 53/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.14s/it]
+[ Valid | 053/080 ] loss = 0.82471, acc = 0.86559, top5 = 0.98435
+>>> Model saved at epoch 53, val_loss = 0.82471
+Epoch 54/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+Epoch 54/80 [Valid]:   0%|          | 0/16 [00:00<?, ?it/s][Train | 054/080] loss = 1.19511, acc = 0.76743, top5 = 0.92491
+Epoch 54/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.14s/it]
+[ Valid | 054/080 ] loss = 0.81478, acc = 0.86611, top5 = 0.98337
+>>> Model saved at epoch 54, val_loss = 0.81478
+Epoch 55/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+Epoch 55/80 [Valid]:   0%|          | 0/16 [00:00<?, ?it/s][Train | 055/080] loss = 1.18335, acc = 0.77143, top5 = 0.92601
+Epoch 55/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.14s/it]
+[ Valid | 055/080 ] loss = 0.80523, acc = 0.86658, top5 = 0.98533
+Epoch 56/80 [Train]:   0%|          | 0/64 [00:00<?, ?it/s]>>> Model saved at epoch 55, val_loss = 0.80523
+Epoch 56/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+Epoch 56/80 [Valid]:   0%|          | 0/16 [00:00<?, ?it/s][Train | 056/080] loss = 1.17872, acc = 0.77178, top5 = 0.92968
+Epoch 56/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.14s/it]
+Epoch 57/80 [Train]:   0%|          | 0/64 [00:00<?, ?it/s][ Valid | 056/080 ] loss = 0.80598, acc = 0.86559, top5 = 0.98435
+Epoch 57/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+Epoch 57/80 [Valid]:   0%|          | 0/16 [00:00<?, ?it/s][Train | 057/080] loss = 1.17878, acc = 0.76890, top5 = 0.92308
+Epoch 57/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.15s/it]
+[ Valid | 057/080 ] loss = 0.78322, acc = 0.86559, top5 = 0.98337
+>>> Model saved at epoch 57, val_loss = 0.78322
+Epoch 58/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+Epoch 58/80 [Valid]:   0%|          | 0/16 [00:00<?, ?it/s][Train | 058/080] loss = 1.15799, acc = 0.77227, top5 = 0.92577
+Epoch 58/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.14s/it]
+[ Valid | 058/080 ] loss = 0.78257, acc = 0.86756, top5 = 0.98582
+>>> Model saved at epoch 58, val_loss = 0.78257
+Epoch 59/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+Epoch 59/80 [Valid]:   0%|          | 0/16 [00:00<?, ?it/s][Train | 059/080] loss = 1.16668, acc = 0.77601, top5 = 0.92467
+Epoch 59/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.15s/it]
+[ Valid | 059/080 ] loss = 0.76719, acc = 0.87000, top5 = 0.98435
+Epoch 60/80 [Train]:   0%|          | 0/64 [00:00<?, ?it/s]>>> Model saved at epoch 59, val_loss = 0.76719
+Epoch 60/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+[Train | 060/080] loss = 1.13382, acc = 0.77648, top5 = 0.92528
+Epoch 60/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.15s/it]
+[ Valid | 060/080 ] loss = 0.74634, acc = 0.86904, top5 = 0.98484
+Epoch 61/80 [Train]:   0%|          | 0/64 [00:00<?, ?it/s]>>> Model saved at epoch 60, val_loss = 0.74634
+Epoch 61/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.28s/it]
+Epoch 61/80 [Valid]:   0%|          | 0/16 [00:00<?, ?it/s][Train | 061/080] loss = 1.14109, acc = 0.77441, top5 = 0.92601
+Epoch 61/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.15s/it]
+[ Valid | 061/080 ] loss = 0.75655, acc = 0.86609, top5 = 0.98533
+Epoch 62/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.28s/it]
+[Train | 062/080] loss = 1.13386, acc = 0.77957, top5 = 0.92662
+Epoch 62/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.15s/it]
+[ Valid | 062/080 ] loss = 0.74061, acc = 0.86708, top5 = 0.98533
+>>> Model saved at epoch 62, val_loss = 0.74061
+Epoch 63/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+[Train | 063/080] loss = 1.12446, acc = 0.77749, top5 = 0.92601
+Epoch 63/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.15s/it]
+[ Valid | 063/080 ] loss = 0.73072, acc = 0.86608, top5 = 0.98582
+>>> Model saved at epoch 63, val_loss = 0.73072
+Epoch 64/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.28s/it]
+Epoch 64/80 [Valid]:   0%|          | 0/16 [00:00<?, ?it/s][Train | 064/080] loss = 1.11851, acc = 0.77894, top5 = 0.92601
+Epoch 64/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.14s/it]
+Epoch 65/80 [Train]:   0%|          | 0/64 [00:00<?, ?it/s][ Valid | 064/080 ] loss = 0.73328, acc = 0.86461, top5 = 0.98435
+Epoch 65/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.28s/it]
+Epoch 65/80 [Valid]:   0%|          | 0/16 [00:00<?, ?it/s][Train | 065/080] loss = 1.10215, acc = 0.77732, top5 = 0.93213
+Epoch 65/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.15s/it]
+[ Valid | 065/080 ] loss = 0.72313, acc = 0.86756, top5 = 0.98533
+Epoch 66/80 [Train]:   0%|          | 0/64 [00:00<?, ?it/s]>>> Model saved at epoch 65, val_loss = 0.72313
+Epoch 66/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+Epoch 66/80 [Valid]:   0%|          | 0/16 [00:00<?, ?it/s][Train | 066/080] loss = 1.10815, acc = 0.77944, top5 = 0.92687
+Epoch 66/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.14s/it]
+[ Valid | 066/080 ] loss = 0.70781, acc = 0.86902, top5 = 0.98484
+Epoch 67/80 [Train]:   0%|          | 0/64 [00:00<?, ?it/s]>>> Model saved at epoch 66, val_loss = 0.70781
+Epoch 67/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+Epoch 67/80 [Valid]:   0%|          | 0/16 [00:00<?, ?it/s][Train | 067/080] loss = 1.07177, acc = 0.78658, top5 = 0.93543
+Epoch 67/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.15s/it]
+[ Valid | 067/080 ] loss = 0.70259, acc = 0.86658, top5 = 0.98582
+Epoch 68/80 [Train]:   0%|          | 0/64 [00:00<?, ?it/s]>>> Model saved at epoch 67, val_loss = 0.70259
+Epoch 68/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+Epoch 68/80 [Valid]:   0%|          | 0/16 [00:00<?, ?it/s][Train | 068/080] loss = 1.07617, acc = 0.78207, top5 = 0.93408
+Epoch 68/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.14s/it]
+[ Valid | 068/080 ] loss = 0.70256, acc = 0.86558, top5 = 0.98582
+>>> Model saved at epoch 68, val_loss = 0.70256
+Epoch 69/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+Epoch 69/80 [Valid]:   0%|          | 0/16 [00:00<?, ?it/s][Train | 069/080] loss = 1.08818, acc = 0.78026, top5 = 0.92601
+Epoch 69/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.14s/it]
+[ Valid | 069/080 ] loss = 0.69099, acc = 0.86805, top5 = 0.98533
+>>> Model saved at epoch 69, val_loss = 0.69099
+Epoch 70/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+Epoch 70/80 [Valid]:   0%|          | 0/16 [00:00<?, ?it/s][Train | 070/080] loss = 1.08091, acc = 0.78155, top5 = 0.92760
+Epoch 70/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.14s/it]
+[ Valid | 070/080 ] loss = 0.67398, acc = 0.86904, top5 = 0.98729
+>>> Model saved at epoch 70, val_loss = 0.67398
+Epoch 71/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+Epoch 71/80 [Valid]:   0%|          | 0/16 [00:00<?, ?it/s][Train | 071/080] loss = 1.05217, acc = 0.78984, top5 = 0.93628
+Epoch 71/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.14s/it]
+[ Valid | 071/080 ] loss = 0.68527, acc = 0.86706, top5 = 0.98582
+Epoch 72/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+Epoch 72/80 [Valid]:   0%|          | 0/16 [00:00<?, ?it/s][Train | 072/080] loss = 1.05867, acc = 0.78757, top5 = 0.93262
+Epoch 72/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.15s/it]
+[ Valid | 072/080 ] loss = 0.66413, acc = 0.86952, top5 = 0.98435
+Epoch 73/80 [Train]:   0%|          | 0/64 [00:00<?, ?it/s]>>> Model saved at epoch 72, val_loss = 0.66413
+Epoch 73/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+Epoch 73/80 [Valid]:   0%|          | 0/16 [00:00<?, ?it/s][Train | 073/080] loss = 1.05918, acc = 0.78235, top5 = 0.93017
+Epoch 73/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.14s/it]
+[ Valid | 073/080 ] loss = 0.66462, acc = 0.86901, top5 = 0.98582
+Epoch 74/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+[Train | 074/080] loss = 1.05987, acc = 0.78376, top5 = 0.92613
+Epoch 74/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.14s/it]
+[ Valid | 074/080 ] loss = 0.66707, acc = 0.86999, top5 = 0.98484
+Epoch 75/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+Epoch 75/80 [Valid]:   0%|          | 0/16 [00:00<?, ?it/s][Train | 075/080] loss = 1.04628, acc = 0.79003, top5 = 0.93225
+Epoch 75/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.15s/it]
+[ Valid | 075/080 ] loss = 0.65104, acc = 0.87096, top5 = 0.98631
+>>> Model saved at epoch 75, val_loss = 0.65104
+Epoch 76/80 [Train]: 100%|██████████| 64/64 [01:23<00:00,  1.30s/it]
+[Train | 076/080] loss = 1.02746, acc = 0.79365, top5 = 0.93482
+Epoch 76/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.14s/it]
+Epoch 77/80 [Train]:   0%|          | 0/64 [00:00<?, ?it/s][ Valid | 076/080 ] loss = 0.65982, acc = 0.86901, top5 = 0.98582
+Epoch 77/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+[Train | 077/080] loss = 1.03667, acc = 0.78779, top5 = 0.93384
+Epoch 77/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.14s/it]
+[ Valid | 077/080 ] loss = 0.65235, acc = 0.87194, top5 = 0.98631
+Epoch 78/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.28s/it]
+Epoch 78/80 [Valid]:   0%|          | 0/16 [00:00<?, ?it/s][Train | 078/080] loss = 1.03217, acc = 0.79052, top5 = 0.92919
+Epoch 78/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.14s/it]
+[ Valid | 078/080 ] loss = 0.64530, acc = 0.87098, top5 = 0.98582
+>>> Model saved at epoch 78, val_loss = 0.64530
+Epoch 79/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+Epoch 79/80 [Valid]:   0%|          | 0/16 [00:00<?, ?it/s][Train | 079/080] loss = 1.01011, acc = 0.79230, top5 = 0.93543
+Epoch 79/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.15s/it]
+[ Valid | 079/080 ] loss = 0.62924, acc = 0.87145, top5 = 0.98533
+Epoch 80/80 [Train]:   0%|          | 0/64 [00:00<?, ?it/s]>>> Model saved at epoch 79, val_loss = 0.62924
+Epoch 80/80 [Train]: 100%|██████████| 64/64 [01:22<00:00,  1.29s/it]
+Epoch 80/80 [Valid]:   0%|          | 0/16 [00:00<?, ?it/s][Train | 080/080] loss = 1.02839, acc = 0.78976, top5 = 0.93213
+Epoch 80/80 [Valid]: 100%|██████████| 16/16 [00:18<00:00,  1.14s/it]
+[ Valid | 080/080 ] loss = 0.63719, acc = 0.s86999, top5 = 0.98582
+
+训练总耗时: 135.94 分钟，平均每epoch耗时: 101.96 秒
+Best epoch: 79, best val_loss: 0.62924
+Final Valid Eval: 100%|██████████| 16/16 [00:18<00:00,  1.14s/it]
+SpeedTest:   0%|          | 0/16 [00:00<?, ?it/s]
+Final Validation Top-1 Acc: 0.8714, Top-5 Acc: 0.9853
+SpeedTest: 100%|██████████| 16/16 [00:18<00:00,  1.14s/it]
+
+推理平均测试速度: 4.461 ms/图像
+推理最大显存占用: 1529.29 MB
+Test Inference: 100%|██████████| 81/81 [02:31<00:00,  1.87s/it]
+Submission file saved to D:\homework\Course_Design_of_artificial_intelligence\third\ResNet50\luchi_dalao\dalao_bendi0529V1\submission.csv
+
+进程已结束,退出代码0

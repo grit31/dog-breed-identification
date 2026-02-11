@@ -1,0 +1,208 @@
+Data\anaconda3\envs\homework_2_1\python.exe D:/homework/Course_Design_of_artificial_intelligence/third/VGG/kaggle_dalao/PhanDai_dalao/no_pre/test0526.py
+Epoch 1/80 - train: 100%|██████████| 256/256 [07:58<00:00,  1.87s/it]
+val: 100%|██████████| 64/64 [00:39<00:00,  1.64it/s]
+Epoch 1: train loss 4.7888, val loss 4.7831, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 2/80 - train: 100%|██████████| 256/256 [07:13<00:00,  1.69s/it]
+val: 100%|██████████| 64/64 [00:26<00:00,  2.46it/s]
+Epoch 2: train loss 4.7836, val loss 4.7810, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 3/80 - train: 100%|██████████| 256/256 [07:00<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.48it/s]
+Epoch 3: train loss 4.7820, val loss 4.7800, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 4/80 - train: 100%|██████████| 256/256 [07:00<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.47it/s]
+Epoch 4: train loss 4.7814, val loss 4.7795, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 5/80 - train: 100%|██████████| 256/256 [06:59<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.47it/s]
+Epoch 5: train loss 4.7811, val loss 4.7793, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 6/80 - train: 100%|██████████| 256/256 [06:59<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:26<00:00,  2.46it/s]
+Epoch 6: train loss 4.7802, val loss 4.7791, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 7/80 - train: 100%|██████████| 256/256 [07:00<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.48it/s]
+Epoch 7: train loss 4.7801, val loss 4.7791, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 8/80 - train: 100%|██████████| 256/256 [07:00<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.47it/s]
+Epoch 8: train loss 4.7801, val loss 4.7790, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 9/80 - train: 100%|██████████| 256/256 [07:00<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.48it/s]
+Epoch 9: train loss 4.7800, val loss 4.7790, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 10/80 - train: 100%|██████████| 256/256 [06:59<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.47it/s]
+Epoch 10: train loss 4.7800, val loss 4.7790, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 11/80 - train: 100%|██████████| 256/256 [07:00<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.48it/s]
+Epoch 11: train loss 4.7796, val loss 4.7789, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 12/80 - train: 100%|██████████| 256/256 [06:59<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.48it/s]
+Epoch 12: train loss 4.7796, val loss 4.7789, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 13/80 - train: 100%|██████████| 256/256 [06:59<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.48it/s]
+Epoch 13: train loss 4.7796, val loss 4.7789, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 14/80 - train: 100%|██████████| 256/256 [06:59<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.48it/s]
+Epoch 14: train loss 4.7796, val loss 4.7789, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 15/80 - train: 100%|██████████| 256/256 [06:59<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.47it/s]
+Epoch 15: train loss 4.7796, val loss 4.7789, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 16/80 - train: 100%|██████████| 256/256 [07:00<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.48it/s]
+Epoch 16: train loss 4.7794, val loss 4.7789, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 17/80 - train: 100%|██████████| 256/256 [07:00<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.48it/s]
+Epoch 17: train loss 4.7794, val loss 4.7789, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 18/80 - train: 100%|██████████| 256/256 [06:59<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.47it/s]
+Epoch 18: train loss 4.7794, val loss 4.7789, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 19/80 - train: 100%|██████████| 256/256 [07:00<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.47it/s]
+Epoch 19: train loss 4.7794, val loss 4.7789, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 20/80 - train: 100%|██████████| 256/256 [06:59<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.48it/s]
+Epoch 20: train loss 4.7794, val loss 4.7789, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 21/80 - train: 100%|██████████| 256/256 [06:59<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.49it/s]
+Epoch 21: train loss 4.7793, val loss 4.7789, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 22/80 - train: 100%|██████████| 256/256 [06:58<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.48it/s]
+Epoch 22: train loss 4.7793, val loss 4.7789, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 23/80 - train: 100%|██████████| 256/256 [06:59<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.48it/s]
+Epoch 23: train loss 4.7793, val loss 4.7789, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 24/80 - train: 100%|██████████| 256/256 [06:59<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.48it/s]
+Epoch 24: train loss 4.7793, val loss 4.7789, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 25/80 - train: 100%|██████████| 256/256 [06:59<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.48it/s]
+Epoch 25: train loss 4.7793, val loss 4.7789, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 26/80 - train: 100%|██████████| 256/256 [07:00<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.48it/s]
+Epoch 26: train loss 4.7792, val loss 4.7789, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 27/80 - train: 100%|██████████| 256/256 [07:00<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.47it/s]
+Epoch 27: train loss 4.7792, val loss 4.7789, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 28/80 - train: 100%|██████████| 256/256 [06:59<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.47it/s]
+Epoch 28: train loss 4.7792, val loss 4.7789, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 29/80 - train: 100%|██████████| 256/256 [07:00<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.48it/s]
+Epoch 29: train loss 4.7792, val loss 4.7789, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 30/80 - train: 100%|██████████| 256/256 [06:59<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.49it/s]
+Epoch 30: train loss 4.7792, val loss 4.7789, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 31/80 - train: 100%|██████████| 256/256 [07:00<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.48it/s]
+Epoch 31: train loss 4.7792, val loss 4.7789, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 32/80 - train: 100%|██████████| 256/256 [06:59<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.47it/s]
+Epoch 32: train loss 4.7792, val loss 4.7789, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 33/80 - train: 100%|██████████| 256/256 [07:00<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.48it/s]
+Epoch 33: train loss 4.7792, val loss 4.7789, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 34/80 - train: 100%|██████████| 256/256 [06:59<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.48it/s]
+Epoch 34: train loss 4.7792, val loss 4.7789, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 35/80 - train: 100%|██████████| 256/256 [07:00<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.48it/s]
+Epoch 35: train loss 4.7792, val loss 4.7789, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 36/80 - train: 100%|██████████| 256/256 [06:59<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.47it/s]
+Epoch 36: train loss 4.7792, val loss 4.7789, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 37/80 - train: 100%|██████████| 256/256 [06:59<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.47it/s]
+Epoch 37: train loss 4.7792, val loss 4.7789, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 38/80 - train: 100%|██████████| 256/256 [06:59<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.48it/s]
+Epoch 38: train loss 4.7792, val loss 4.7789, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 39/80 - train: 100%|██████████| 256/256 [06:59<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.48it/s]
+Epoch 39: train loss 4.7792, val loss 4.7789, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 40/80 - train: 100%|██████████| 256/256 [07:00<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.48it/s]
+Epoch 40: train loss 4.7792, val loss 4.7789, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 41/80 - train: 100%|██████████| 256/256 [06:59<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.48it/s]
+Epoch 41: train loss 4.7792, val loss 4.7789, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 42/80 - train: 100%|██████████| 256/256 [06:59<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.48it/s]
+Epoch 42: train loss 4.7792, val loss 4.7789, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 43/80 - train: 100%|██████████| 256/256 [07:00<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.48it/s]
+Epoch 43: train loss 4.7792, val loss 4.7789, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 44/80 - train: 100%|██████████| 256/256 [06:59<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.48it/s]
+Epoch 44: train loss 4.7792, val loss 4.7789, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 45/80 - train: 100%|██████████| 256/256 [07:00<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.47it/s]
+Epoch 45: train loss 4.7792, val loss 4.7789, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 46/80 - train: 100%|██████████| 256/256 [07:00<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.47it/s]
+Epoch 46: train loss 4.7792, val loss 4.7789, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 47/80 - train: 100%|██████████| 256/256 [07:01<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:37<00:00,  1.73it/s]
+Epoch 47: train loss 4.7792, val loss 4.7789, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 48/80 - train: 100%|██████████| 256/256 [07:43<00:00,  1.81s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.48it/s]
+Epoch 48: train loss 4.7792, val loss 4.7789, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 49/80 - train: 100%|██████████| 256/256 [06:59<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.47it/s]
+Epoch 49: train loss 4.7792, val loss 4.7789, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 50/80 - train: 100%|██████████| 256/256 [07:00<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.48it/s]
+Epoch 50: train loss 4.7792, val loss 4.7789, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 51/80 - train: 100%|██████████| 256/256 [06:59<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.48it/s]
+Epoch 51: train loss 4.7792, val loss 4.7789, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 52/80 - train: 100%|██████████| 256/256 [07:00<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.49it/s]
+Epoch 52: train loss 4.7792, val loss 4.7789, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 53/80 - train: 100%|██████████| 256/256 [07:00<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.47it/s]
+Epoch 53: train loss 4.7792, val loss 4.7789, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 54/80 - train: 100%|██████████| 256/256 [07:00<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.47it/s]
+Epoch 54: train loss 4.7792, val loss 4.7789, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 55/80 - train: 100%|██████████| 256/256 [07:00<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.48it/s]
+Epoch 55: train loss 4.7792, val loss 4.7789, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 56/80 - train: 100%|██████████| 256/256 [07:00<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.48it/s]
+Epoch 56: train loss 4.7792, val loss 4.7789, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 57/80 - train: 100%|██████████| 256/256 [07:00<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.48it/s]
+Epoch 57: train loss 4.7792, val loss 4.7789, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 58/80 - train: 100%|██████████| 256/256 [07:00<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.47it/s]
+Epoch 58: train loss 4.7792, val loss 4.7789, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 59/80 - train: 100%|██████████| 256/256 [07:00<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.48it/s]
+Epoch 59: train loss 4.7792, val loss 4.7789, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 60/80 - train: 100%|██████████| 256/256 [06:59<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.48it/s]
+Epoch 60: train loss 4.7792, val loss 4.7789, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 61/80 - train: 100%|██████████| 256/256 [06:59<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.48it/s]
+Epoch 61: train loss 4.7792, val loss 4.7789, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 62/80 - train: 100%|██████████| 256/256 [06:59<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.47it/s]
+Epoch 62: train loss 4.7792, val loss 4.7789, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 63/80 - train: 100%|██████████| 256/256 [07:00<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:26<00:00,  2.46it/s]
+Epoch 63: train loss 4.7792, val loss 4.7789, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 64/80 - train: 100%|██████████| 256/256 [07:00<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.47it/s]
+Epoch 64: train loss 4.7792, val loss 4.7789, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 65/80 - train: 100%|██████████| 256/256 [07:00<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.48it/s]
+Epoch 65: train loss 4.7792, val loss 4.7789, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 66/80 - train: 100%|██████████| 256/256 [07:00<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.47it/s]
+Epoch 66: train loss 4.7792, val loss 4.7789, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 67/80 - train: 100%|██████████| 256/256 [07:00<00:00,  1.64s/it]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.47it/s]
+Epoch 67: train loss 4.7792, val loss 4.7789, val acc 0.0122, val top5 0.0577, val f1 0.0002
+Epoch 68/80 - train:  45%|████▌     | 116/256 [03:11<03:58,  1.71s/it]forrtl: error (200): program aborting due to control-C event
+Image              PC                Routine            Line        Source
+libifcoremd.dll    00007FF8A712DF54  Unknown               Unknown  Unknown
+KERNELBASE.dll     00007FFA59A9D03D  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FFA5BC4E8D7  Unknown               Unknown  Unknown
+ntdll.dll          00007FFA5C75C5DC  Unknown               Unknown  Unknown

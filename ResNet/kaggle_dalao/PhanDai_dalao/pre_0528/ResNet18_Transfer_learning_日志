@@ -1,0 +1,124 @@
+D:\ProgramData\anaconda3\envs\homework_2_1\python.exe D:/homework/Course_Design_of_artificial_intelligence/third/ResNet/kaggle_dalao/PhanDai_dalao/pre_0528/pre_0528.py
+
+=== Model Info ===
+参数量: 11.24 M
+模型大小: 42.91 MB
+FLOPs: 3.65 GFLOPs/图像
+
+Epoch 1/30 - train: 100%|██████████| 256/256 [02:24<00:00,  1.77it/s]
+val: 100%|██████████| 64/64 [00:25<00:00,  2.55it/s]
+Epoch 1: train loss 3.3363, val loss 1.9809, val acc 0.5716, val top5 0.8738
+Epoch 2/30 - train:   0%|          | 0/256 [00:00<?, ?it/s]>>> Model saved at epoch 1, val_loss = 1.98086
+Epoch 2/30 - train: 100%|██████████| 256/256 [01:55<00:00,  2.21it/s]
+val: 100%|██████████| 64/64 [00:14<00:00,  4.40it/s]
+Epoch 2: train loss 1.8607, val loss 1.4795, val acc 0.6572, val top5 0.9276
+>>> Model saved at epoch 2, val_loss = 1.47954
+Epoch 3/30 - train: 100%|██████████| 256/256 [01:59<00:00,  2.14it/s]
+val: 100%|██████████| 64/64 [00:14<00:00,  4.40it/s]
+Epoch 3: train loss 1.2802, val loss 1.2713, val acc 0.6587, val top5 0.9276
+Epoch 4/30 - train:   0%|          | 0/256 [00:00<?, ?it/s]>>> Model saved at epoch 3, val_loss = 1.27129
+Epoch 4/30 - train: 100%|██████████| 256/256 [01:54<00:00,  2.23it/s]
+val: 100%|██████████| 64/64 [00:15<00:00,  4.19it/s]
+Epoch 4: train loss 0.9391, val loss 1.2535, val acc 0.6479, val top5 0.9203
+Epoch 5/30 - train:   0%|          | 0/256 [00:00<?, ?it/s]>>> Model saved at epoch 4, val_loss = 1.25345
+Epoch 5/30 - train: 100%|██████████| 256/256 [01:55<00:00,  2.21it/s]
+val: 100%|██████████| 64/64 [00:14<00:00,  4.30it/s]
+Epoch 5: train loss 0.7078, val loss 1.1900, val acc 0.6645, val top5 0.9262
+>>> Model saved at epoch 5, val_loss = 1.18996
+Epoch 6/30 - train: 100%|██████████| 256/256 [01:52<00:00,  2.27it/s]
+val: 100%|██████████| 64/64 [00:15<00:00,  4.12it/s]
+Epoch 6: train loss 0.5511, val loss 1.1448, val acc 0.6685, val top5 0.9252
+Epoch 7/30 - train:   0%|          | 0/256 [00:00<?, ?it/s]>>> Model saved at epoch 6, val_loss = 1.14480
+Epoch 7/30 - train: 100%|██████████| 256/256 [01:55<00:00,  2.23it/s]
+val: 100%|██████████| 64/64 [00:14<00:00,  4.49it/s]
+Epoch 7: train loss 0.4265, val loss 1.1401, val acc 0.6729, val top5 0.9252
+Epoch 8/30 - train:   0%|          | 0/256 [00:00<?, ?it/s]>>> Model saved at epoch 7, val_loss = 1.14011
+Epoch 8/30 - train: 100%|██████████| 256/256 [01:55<00:00,  2.22it/s]
+val: 100%|██████████| 64/64 [00:14<00:00,  4.54it/s]
+Epoch 8: train loss 0.3087, val loss 1.0349, val acc 0.7139, val top5 0.9350
+Epoch 9/30 - train:   0%|          | 0/256 [00:00<?, ?it/s]>>> Model saved at epoch 8, val_loss = 1.03495
+Epoch 9/30 - train: 100%|██████████| 256/256 [01:55<00:00,  2.22it/s]
+val: 100%|██████████| 64/64 [00:15<00:00,  4.18it/s]
+Epoch 10/30 - train:   0%|          | 0/256 [00:00<?, ?it/s]Epoch 9: train loss 0.2727, val loss 1.0357, val acc 0.7105, val top5 0.9355
+Epoch 10/30 - train: 100%|██████████| 256/256 [01:51<00:00,  2.29it/s]
+val: 100%|██████████| 64/64 [00:14<00:00,  4.45it/s]
+Epoch 10: train loss 0.2473, val loss 1.0243, val acc 0.7144, val top5 0.9379
+>>> Model saved at epoch 10, val_loss = 1.02432
+Epoch 11/30 - train: 100%|██████████| 256/256 [01:55<00:00,  2.21it/s]
+val: 100%|██████████| 64/64 [00:14<00:00,  4.31it/s]
+Epoch 11: train loss 0.2340, val loss 1.0236, val acc 0.7198, val top5 0.9384
+>>> Model saved at epoch 11, val_loss = 1.02356
+Epoch 12/30 - train: 100%|██████████| 256/256 [01:58<00:00,  2.17it/s]
+val: 100%|██████████| 64/64 [00:13<00:00,  4.91it/s]
+Epoch 13/30 - train:   0%|          | 0/256 [00:00<?, ?it/s]Epoch 12: train loss 0.2247, val loss 1.0280, val acc 0.7232, val top5 0.9350
+Epoch 13/30 - train: 100%|██████████| 256/256 [01:50<00:00,  2.31it/s]
+val: 100%|██████████| 64/64 [00:12<00:00,  5.05it/s]
+Epoch 13: train loss 0.2053, val loss 1.0184, val acc 0.7218, val top5 0.9364
+>>> Model saved at epoch 13, val_loss = 1.01840
+Epoch 14/30 - train: 100%|██████████| 256/256 [01:44<00:00,  2.45it/s]
+val: 100%|██████████| 64/64 [00:12<00:00,  5.04it/s]
+Epoch 14: train loss 0.2029, val loss 1.0118, val acc 0.7198, val top5 0.9403
+>>> Model saved at epoch 14, val_loss = 1.01175
+Epoch 15/30 - train: 100%|██████████| 256/256 [01:45<00:00,  2.42it/s]
+val: 100%|██████████| 64/64 [00:13<00:00,  4.92it/s]
+Epoch 15: train loss 0.1909, val loss 1.0182, val acc 0.7188, val top5 0.9355
+Epoch 16/30 - train: 100%|██████████| 256/256 [01:44<00:00,  2.44it/s]
+val: 100%|██████████| 64/64 [00:12<00:00,  4.95it/s]
+Epoch 16: train loss 0.1901, val loss 1.0215, val acc 0.7208, val top5 0.9364
+Epoch 17/30 - train: 100%|██████████| 256/256 [01:44<00:00,  2.45it/s]
+val: 100%|██████████| 64/64 [00:12<00:00,  5.16it/s]
+Epoch 18/30 - train:   0%|          | 0/256 [00:00<?, ?it/s]Epoch 17: train loss 0.1917, val loss 1.0215, val acc 0.7174, val top5 0.9345
+Epoch 18/30 - train: 100%|██████████| 256/256 [01:54<00:00,  2.24it/s]
+val: 100%|██████████| 64/64 [00:14<00:00,  4.41it/s]
+Epoch 18: train loss 0.1810, val loss 1.0154, val acc 0.7232, val top5 0.9384
+Epoch 19/30 - train: 100%|██████████| 256/256 [01:54<00:00,  2.24it/s]
+val: 100%|██████████| 64/64 [00:15<00:00,  4.04it/s]
+Epoch 20/30 - train:   0%|          | 0/256 [00:00<?, ?it/s]Epoch 19: train loss 0.1803, val loss 1.0147, val acc 0.7222, val top5 0.9359
+Epoch 20/30 - train: 100%|██████████| 256/256 [01:54<00:00,  2.24it/s]
+val: 100%|██████████| 64/64 [00:14<00:00,  4.37it/s]
+Epoch 20: train loss 0.1780, val loss 1.0108, val acc 0.7222, val top5 0.9379
+>>> Model saved at epoch 20, val_loss = 1.01081
+Epoch 21/30 - train: 100%|██████████| 256/256 [01:54<00:00,  2.24it/s]
+val: 100%|██████████| 64/64 [00:12<00:00,  4.97it/s]
+Epoch 22/30 - train:   0%|          | 0/256 [00:00<?, ?it/s]Epoch 21: train loss 0.1800, val loss 1.0149, val acc 0.7213, val top5 0.9350
+Epoch 22/30 - train: 100%|██████████| 256/256 [01:42<00:00,  2.49it/s]
+val: 100%|██████████| 64/64 [00:11<00:00,  5.34it/s]
+Epoch 22: train loss 0.1872, val loss 1.0133, val acc 0.7188, val top5 0.9379
+Epoch 23/30 - train: 100%|██████████| 256/256 [01:42<00:00,  2.50it/s]
+val: 100%|██████████| 64/64 [00:12<00:00,  4.98it/s]
+Epoch 24/30 - train:   0%|          | 0/256 [00:00<?, ?it/s]Epoch 23: train loss 0.1822, val loss 1.0120, val acc 0.7237, val top5 0.9394
+Epoch 24/30 - train: 100%|██████████| 256/256 [01:42<00:00,  2.49it/s]
+val: 100%|██████████| 64/64 [00:11<00:00,  5.35it/s]
+Epoch 25/30 - train:   0%|          | 0/256 [00:00<?, ?it/s]Epoch 24: train loss 0.1852, val loss 1.0148, val acc 0.7227, val top5 0.9394
+Epoch 25/30 - train: 100%|██████████| 256/256 [01:42<00:00,  2.49it/s]
+val: 100%|██████████| 64/64 [00:11<00:00,  5.39it/s]
+Epoch 25: train loss 0.1760, val loss 1.0131, val acc 0.7213, val top5 0.9384
+Epoch 26/30 - train: 100%|██████████| 256/256 [01:42<00:00,  2.49it/s]
+val: 100%|██████████| 64/64 [00:12<00:00,  5.32it/s]
+Epoch 26: train loss 0.1758, val loss 1.0182, val acc 0.7218, val top5 0.9359
+Epoch 27/30 - train: 100%|██████████| 256/256 [01:57<00:00,  2.19it/s]
+val: 100%|██████████| 64/64 [00:15<00:00,  4.16it/s]
+Epoch 27: train loss 0.1880, val loss 1.0158, val acc 0.7222, val top5 0.9399
+Epoch 28/30 - train: 100%|██████████| 256/256 [01:58<00:00,  2.17it/s]
+val: 100%|██████████| 64/64 [00:14<00:00,  4.44it/s]
+Epoch 28: train loss 0.1828, val loss 1.0178, val acc 0.7208, val top5 0.9379
+Epoch 29/30 - train: 100%|██████████| 256/256 [01:54<00:00,  2.23it/s]
+val: 100%|██████████| 64/64 [00:15<00:00,  4.12it/s]
+Epoch 29: train loss 0.1844, val loss 1.0144, val acc 0.7242, val top5 0.9389
+Epoch 30/30 - train: 100%|██████████| 256/256 [01:52<00:00,  2.28it/s]
+val: 100%|██████████| 64/64 [00:13<00:00,  4.85it/s]
+Epoch 30: train loss 0.1812, val loss 1.0160, val acc 0.7208, val top5 0.9369
+
+训练总耗时: 63.45 分钟，平均每epoch耗时: 126.89 秒
+Best epoch: 20, best val_loss: 1.01081
+Final Valid Eval: 100%|██████████| 64/64 [00:13<00:00,  4.58it/s]
+
+Final Validation Top-1 Acc: 0.7222, Top-5 Acc: 0.9379
+SpeedTest: 100%|██████████| 64/64 [00:13<00:00,  4.72it/s]
+
+推理平均测试速度: 2.325 ms/图像
+推理最大显存占用: 435.77 MB
+predict: 100%|██████████| 324/324 [01:28<00:00,  3.68it/s]
+提交文件已保存: D:\homework\Course_Design_of_artificial_intelligence\third\ResNet\kaggle_dalao\PhanDai_dalao\pre_0528\submission.csv
+
+进程已结束,退出代码0
